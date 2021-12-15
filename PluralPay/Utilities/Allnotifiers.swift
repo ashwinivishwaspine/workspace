@@ -42,4 +42,7 @@ extension String {
         return self.range(of: find) != nil
     }
 
+
+    func test(){}
+    
 }
