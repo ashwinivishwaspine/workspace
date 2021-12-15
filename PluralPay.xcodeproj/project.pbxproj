@@ -8,12 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		1C85E4BE2769DEF100436C1A /* PluralPay.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C85E4BC2769DEF100436C1A /* PluralPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C85E4CA2769DF8900436C1A /* IPluralPGResponseCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85E4C52769DF8900436C1A /* IPluralPGResponseCallback.swift */; };
+		1C85E4CB2769DF8900436C1A /* PluralCheckoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85E4C62769DF8900436C1A /* PluralCheckoutManager.swift */; };
+		1C85E4CC2769DF8900436C1A /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85E4C72769DF8900436C1A /* Internet.swift */; };
+		1C85E4CD2769DF8900436C1A /* Plural.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85E4C82769DF8900436C1A /* Plural.swift */; };
+		1C85E4CE2769DF8900436C1A /* PluralPGConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85E4C92769DF8900436C1A /* PluralPGConstant.swift */; };
+		1C85E4D32769DF9100436C1A /* Toas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85E4D02769DF9100436C1A /* Toas.swift */; };
+		1C85E4D42769DF9100436C1A /* ToastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85E4D12769DF9100436C1A /* ToastViewController.swift */; };
+		1C85E4D52769DF9100436C1A /* ToastPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85E4D22769DF9100436C1A /* ToastPresentationController.swift */; };
+		1C85E4D92769DF9800436C1A /* Allnotifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85E4D72769DF9800436C1A /* Allnotifiers.swift */; };
+		1C85E4DA2769DF9800436C1A /* Hashing Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85E4D82769DF9800436C1A /* Hashing Algorithm.swift */; };
+		1C85E4DC2769DFA300436C1A /* PluralPGActivityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85E4DB2769DFA300436C1A /* PluralPGActivityVC.swift */; };
+		1C85E4DE2769DFAB00436C1A /* PluralStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C85E4DD2769DFAB00436C1A /* PluralStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1C85E4B92769DEF100436C1A /* PluralPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PluralPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C85E4BC2769DEF100436C1A /* PluralPay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PluralPay.h; sourceTree = "<group>"; };
 		1C85E4BD2769DEF100436C1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C85E4C52769DF8900436C1A /* IPluralPGResponseCallback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPluralPGResponseCallback.swift; sourceTree = "<group>"; };
+		1C85E4C62769DF8900436C1A /* PluralCheckoutManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PluralCheckoutManager.swift; sourceTree = "<group>"; };
+		1C85E4C72769DF8900436C1A /* Internet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
+		1C85E4C82769DF8900436C1A /* Plural.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plural.swift; sourceTree = "<group>"; };
+		1C85E4C92769DF8900436C1A /* PluralPGConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PluralPGConstant.swift; sourceTree = "<group>"; };
+		1C85E4D02769DF9100436C1A /* Toas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toas.swift; sourceTree = "<group>"; };
+		1C85E4D12769DF9100436C1A /* ToastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastViewController.swift; sourceTree = "<group>"; };
+		1C85E4D22769DF9100436C1A /* ToastPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastPresentationController.swift; sourceTree = "<group>"; };
+		1C85E4D72769DF9800436C1A /* Allnotifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Allnotifiers.swift; sourceTree = "<group>"; };
+		1C85E4D82769DF9800436C1A /* Hashing Algorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Hashing Algorithm.swift"; sourceTree = "<group>"; };
+		1C85E4DB2769DFA300436C1A /* PluralPGActivityVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PluralPGActivityVC.swift; sourceTree = "<group>"; };
+		1C85E4DD2769DFAB00436C1A /* PluralStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PluralStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +70,46 @@
 		1C85E4BB2769DEF100436C1A /* PluralPay */ = {
 			isa = PBXGroup;
 			children = (
+				1C85E4D62769DF9800436C1A /* Utilities */,
+				1C85E4CF2769DF9100436C1A /* Toaster */,
+				1C85E4C42769DF8900436C1A /* Supporting */,
 				1C85E4BC2769DEF100436C1A /* PluralPay.h */,
+				1C85E4DD2769DFAB00436C1A /* PluralStoryboard.storyboard */,
+				1C85E4DB2769DFA300436C1A /* PluralPGActivityVC.swift */,
 				1C85E4BD2769DEF100436C1A /* Info.plist */,
 			);
 			path = PluralPay;
+			sourceTree = "<group>";
+		};
+		1C85E4C42769DF8900436C1A /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				1C85E4C52769DF8900436C1A /* IPluralPGResponseCallback.swift */,
+				1C85E4C62769DF8900436C1A /* PluralCheckoutManager.swift */,
+				1C85E4C72769DF8900436C1A /* Internet.swift */,
+				1C85E4C82769DF8900436C1A /* Plural.swift */,
+				1C85E4C92769DF8900436C1A /* PluralPGConstant.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		1C85E4CF2769DF9100436C1A /* Toaster */ = {
+			isa = PBXGroup;
+			children = (
+				1C85E4D02769DF9100436C1A /* Toas.swift */,
+				1C85E4D12769DF9100436C1A /* ToastViewController.swift */,
+				1C85E4D22769DF9100436C1A /* ToastPresentationController.swift */,
+			);
+			path = Toaster;
+			sourceTree = "<group>";
+		};
+		1C85E4D62769DF9800436C1A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1C85E4D72769DF9800436C1A /* Allnotifiers.swift */,
+				1C85E4D82769DF9800436C1A /* Hashing Algorithm.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C85E4DE2769DFAB00436C1A /* PluralStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +191,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C85E4D42769DF9100436C1A /* ToastViewController.swift in Sources */,
+				1C85E4DA2769DF9800436C1A /* Hashing Algorithm.swift in Sources */,
+				1C85E4D92769DF9800436C1A /* Allnotifiers.swift in Sources */,
+				1C85E4DC2769DFA300436C1A /* PluralPGActivityVC.swift in Sources */,
+				1C85E4CC2769DF8900436C1A /* Internet.swift in Sources */,
+				1C85E4CE2769DF8900436C1A /* PluralPGConstant.swift in Sources */,
+				1C85E4CA2769DF8900436C1A /* IPluralPGResponseCallback.swift in Sources */,
+				1C85E4CB2769DF8900436C1A /* PluralCheckoutManager.swift in Sources */,
+				1C85E4D52769DF9100436C1A /* ToastPresentationController.swift in Sources */,
+				1C85E4D32769DF9100436C1A /* Toas.swift in Sources */,
+				1C85E4CD2769DF8900436C1A /* Plural.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +340,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = PluralPay/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -276,6 +349,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pinelabs.PluralPay;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -291,6 +365,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = PluralPay/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,6 +374,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pinelabs.PluralPay;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
