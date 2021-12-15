@@ -4,6 +4,9 @@
 import Foundation
 import SystemConfiguration
 
+
+
+
 public class Internet
 {
     public init(){}
